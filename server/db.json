@@ -1,0 +1,66 @@
+{
+  "resto": [
+    {
+      "name": "Sarvottam Hotel",
+      "address": "Baroda road, Gujarat",
+      "email": "sarv@abc.com",
+      "mobile": "7785452321",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "name": "Suprime Hotel",
+      "address": "Dahod road, Gujarat",
+      "mobile": "6352178459",
+      "email": "supr@abc.com"
+    },
+    {
+      "id": 4,
+      "name": "Velly Hotel",
+      "address": "Kalol road, Gujarat",
+      "mobile": "9567842546",
+      "email": "velly@abc.com"
+    },
+    {
+      "id": 5,
+      "name": "Vrundavan Hotel",
+      "address": "Godhra road, Gujarat",
+      "mobile": "8754126997",
+      "email": "vrund@abc.com"
+    },
+    {
+      "name": "Nilkanth Hotel",
+      "address": "Vadodara road, Gujarat",
+      "email": "nilkan@abc.com",
+      "mobile": 7845215369,
+      "id": 6
+    },
+    {
+      "name": "Mahaveer Restaurant",
+      "address": "Mehsana road, Gujarat",
+      "email": "maha@abc.com",
+      "mobile": 9685478547,
+      "id": 7
+    }
+  ],
+  "users": [
+    {
+      "name": "Dhairya Mehta",
+      "password": "12345",
+      "email": "dhairya@gmail.com",
+      "id": 1
+    },
+    {
+      "name": "Disha Patel",
+      "password": "123",
+      "email": "disha@gmail.com",
+      "id": 2
+    },
+    {
+      "name": "Dhruvin",
+      "password": "123456",
+      "email": "dhruvin@gmail.com",
+      "id": 3
+    }
+  ]
+}

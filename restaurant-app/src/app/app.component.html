@@ -1,0 +1,23 @@
+<header class="py-3 mb-4 border-bottom">
+  <div class="container d-flex flex-wrap justify-content-center">
+    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+      <svg class="bi me-2" width="0" height="32"><use xlink:href="#bootstrap"></use></svg>
+      <span><h4>{{title}}</h4></span>
+    </a>
+  </div>
+
+  <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+    <li><a routerLink="add" class="nav-link px-2 text-black">Add Restaurant</a></li>
+    <li><a routerLink="update" class="nav-link px-2 text-black">Update Restaurant</a></li>
+    <li><a routerLink="view" class="nav-link px-2 text-black">View Restaurant</a></li>
+    <li><a routerLink="login" class="nav-link px-2 text-black">Login</a></li>
+    <li><a routerLink="register" class="nav-link px-2 text-black">Resgister</a></li>
+  </ul>
+
+</header>
+<router-outlet></router-outlet>
+
+<div class="footer">
+  <p>Copyright By &copy; Angular8 Project(2021)</p>
+</div>
+

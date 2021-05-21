@@ -1,0 +1,24 @@
+<div class="col-sm-12">
+    <div class="jumbotron">
+        <h2 class="text-center">Log-In User For Restaurant</h2>
+    </div>
+    <!-- <div *ngIf="alert" class="alert alert-success alert-dismissible fade show" role="alert">
+        <strong>User created..!</strong> Your account created successfully..!
+        <button (click)="closeAlert()" type="button" class="close" data-bs-dismiss="alert" aria-label="Close">
+            <span area-hidden="true">&times;</span>
+        </button>
+      </div> -->
+    <form>
+        <div class="form-group">
+            <label>Email</label>
+            <input type="email" class="form-control" name="email" placeholder="Enter email" />
+        </div>
+
+        <div class="form-group">
+            <label>Password</label>
+            <input type="password" class="form-control" name="password" placeholder="Enter password" />
+        </div>
+          
+        <button type="submit" class="btn btn-primary" (click)="logIn()">LogIn</button>
+      </form>
+    </div>
